@@ -19,7 +19,7 @@ header p {
 
 }
 
-header nav{
+header nav {
     display: none;
 }
 
@@ -101,25 +101,12 @@ main {
 
 main article {
     margin-bottom: 10px;
-    box-sizing: border-box;
+    
 }
 
 .info-article {
     border-top: solid 1px #ebebeb;
     padding: 15px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.precio {
-    width: 30%;
-}
-
-.descuento {
-    width: 70%;
-
 }
 
 main section article div i {
@@ -137,16 +124,11 @@ main section article div i {
 }
 
 
-.desc-prod{
+.desc-prod {
     display: none;
 }
 
-@media (min-width: 361px) {
-    .productos{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+@media (min-width: 316px) {
     .desc-prod{
         display: block;
     }
@@ -155,8 +137,7 @@ main section article div i {
         width: 45%;
     }
     header nav{
-        display: flex;
-        justify-content: space-between;
+        display: block;
     }
     header div.burger-menu {
         display: none;
@@ -169,3 +150,5 @@ main section article div i {
     }
     
 }
+
+/*jejeje
